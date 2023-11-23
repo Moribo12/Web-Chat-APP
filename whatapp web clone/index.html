@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp clone</title>
+    <link rel="stylesheet" href="./styleweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftSide">
+            <!-- header -->
+            <div class="header">
+            <div class="profile">
+                <div class="userimg">
+                    <img src="./Images/portrait.jpg" class="cover">
+                </div>
+                <div class="user">
+                    <h4>Ribs</h4>
+                </div>
+            </div>
+                <ul class="nav_icons">
+                    <li><i class="fa-solid fa-circle-notch fa-sm"></i></li>
+                    <li><i class="fa-solid fa-message fa-sm"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical fa-sm"></i></li>
+                </ul>
+            </div>
+            <!-- search -->
+            <div class="search_chat">
+                <div>
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+                </div>
+            </div>
+            <!-- chat list -->
+            <div class="chatlist">
+
+                <div class="block">
+                    <div class="imgbx" id="imgbx">
+                        <img src="./Images/profile2.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead" id="listhead">
+                            <h4>Leago Mdluli</h4>
+                            <p class="time">11:46</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Soccer today ?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block unread">
+                    <div class="imgbx">
+                        <img src="./Images/profile1.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>John Lee</h4>
+                            <p class="time">11:46</p>
+                        </div>
+                        <div class="message_p">
+                            <p>Please call me when you get home.</p>
+                            <b>2</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="./Images/profile3.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>John Smith</h4>
+                            <p class="time">12:00</p>
+                        </div>
+                        <div class="message_p">
+                            <p>How was your day,</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="./Images/profile6.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>Morena</h4>
+                            <p class="time">08:00</p>
+                        </div>
+                        <div class="message_p">
+                            <p>i am good</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="./Images/profile3.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>TT</h4>
+                            <p class="time">18:00</p>
+                        </div>
+                        <div class="message_p">
+                            <p>How ?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="./Images/profile7.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>Lerato</h4>
+                            <p class="time">01:00</p>
+                        </div>
+                        <div class="message_p">
+                            <p>I am tired</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imgbx">
+                        <img src="./Images/profile5.jpg">
+                    </div>
+                    <div class="details">
+                        <div class="listhead">
+                            <h4>Jonny Dee</h4>
+                            <p class="time">00:00</p>
+                        </div>
+                        <div class="message_p">
+                            <p>please pay for the food</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Start of rightside -->
+        <div class="rightSide">
+            <div class="header">
+                <div class="imgText" id="imgText">
+                    <div class="userimg" id="userimg">
+                        <img src="./Images/portrait.jpg" class="cover">
+                    </div>
+                    <div class="username">
+                    <h4>Lala Smith </h4><br> 
+                    <!-- <span>Online</span> -->
+                  </div>
+                </div>
+                <ul class="nav_icons">
+                    <li><i class="fa-solid fa-magnifying-glass fa-sm"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical fa-sm"></i></li>
+                </ul>
+            </div>
+
+
+            <div class="chatbox" id="chatbox">
+                <div class="message my_msg">
+                    <p> Hello,how are you doing today ? <br> <span>01:00</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p> Hello,i am good. <br> <span>01:10</span></p>
+                </div>
+
+                <div class="message my_msg">
+                    <p> Did you manage to complete the task from yesterday ? <br> <span>10:00</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p> yes, i did manage to complete it . <br> <span>10:15</span></p>
+                </div>
+
+                <div class="message my_msg">
+                    <p> Can you please send it through via email. <br> <span>10:30</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p> Noted, give me an hour. <br> <span>11:10</span></p>
+                </div>
+
+                <div class="message my_msg">
+                    <p> Thank you, i got it.<br> <span>11:30</span></p>
+                </div>
+                <div class="message friend_msg">
+                    <p> Sharp, see you in the office. <br> <span>12:10</span></p>
+                </div>
+
+                <div class="message my_msg">
+                    <p>I won't manage to come in the office tommorow, i am feeling well. I need to go to the doctor in the morning.<br> <span>12:40</span></p> 
+                   </div>
+                   <div class="message friend_msg">
+                       <p>Alright, get well soon. I hope you a speedy recovery. <br> <span>13:10</span></p> 
+                      </div>
+
+                      <div class="message my_msg">
+                        <p> Thank you, i got it.<br> <span>11:30</span></p>
+                    </div>
+                    <div class="message friend_msg">
+                        <p> Sharp, see you in the office. <br> <span>12:10</span></p>
+                    </div>
+    
+
+
+
+                    <div class="message my_msg">
+                        <p>I won't manage to come in the office tommorow, i am feeling well. I need to go to the doctor in the morning.<br> <span>12:40</span></p> 
+                       </div>
+                       <div class="message friend_msg">
+                           <p>Alright, get well soon. I hope you a speedy recovery. <br> <span>13:10</span></p> 
+                          </div>
+
+                          <div class="message my_msg">
+                            <p> Thank you, i got it.<br> <span>11:30</span></p>
+                        </div>
+                        <div class="message friend_msg">
+                            <p> Sharp, see you in the office. <br> <span>12:10</span></p>
+                        </div>
+        
+                        <div class="message my_msg">
+                            <p>I won't manage to come in the office tommorow, i am feeling well. I need to go to the doctor in the morning.<br> <span>12:40</span></p> 
+                           </div>
+                           <div class="message friend_msg">
+                               <p>Alright, get well soon. I hope you a speedy recovery. <br> <span>13:10</span></p> 
+                              </div>
+            </div>
+
+            <!-- CHAT BOX -->
+            <div class="chat_input" id="textbox">
+                <i class="fa-regular fa-face-smile fa-sm"></i>
+                <i class="fa-solid fa-paperclip fa-sm"></i>
+                <input type="text" placeholder="Type a message">
+                <i class="fa-solid fa-microphone fa-sm"></i>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
